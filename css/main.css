@@ -22,24 +22,24 @@ body h1 {
     justify-content: center;
 }
  
-.svg {
+.icon-select {
     width: 15%;
     margin: 100px 60px 0;
 }
     
-.svg h2 {
+.icon-select h2 {
     font-weight: bold;
     text-align: center;
 }  
-.svg p {
+.icon-select p {
     font-style: italic;
     color: #292929
 }    
     
-.svg img {
+.icon-select img {
     vertical-align: middle;
 }
-.svg img:hover {
+.icon-select img:hover {
     background-color:#292929;
     cursor: pointer;
     transition: background-color 1s ease;
@@ -51,3 +51,124 @@ body h1 {
     border-radius: 15px;
 }
     
+.sprite-wrapper h1{
+    font-weight: bold;
+    text-align: center;
+}
+
+.hover-motion{
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+  
+  #Hover-Motion1 {
+    display:block;
+    width: 100px;
+    height: 200px;
+    margin: 0 auto;
+    border: solid 2px #000;
+    background:transparent url(../images/SpriteMotion.svg) 0 0;
+    background-size: 400%;
+  }
+  #Hover-Motion1:hover{
+    width: 100px;
+    height: 200px;
+      background:transparent url(../images/SpriteMotion.svg) 0 0 no-repeat;
+      background-size: 400px 1200px;
+      
+    animation: hm1 .5s steps(6) ;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-delay: .5s;
+   
+  
+  }
+  
+  @keyframes hm1 {
+      0%{background-position: 0 0;}
+      100%{background-position: 0 -1200px;}
+  }
+  #Hover-Motion2 {
+    display:block;
+    width: 100px;
+    height: 200px;
+    margin: 0 auto;
+    border: solid 2px #000;
+    background:transparent url(../images/SpriteMotion.svg) -100px 0;
+    background-size: 400%;
+  }
+  #Hover-Motion2:hover{
+    width: 100px;
+    height: 200px;
+      background:transparent url(../images/SpriteMotion.svg) -100px 0 no-repeat;
+      background-size: 400px 1200px;
+      
+    animation: hm2 .5s steps(6) ;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-delay: .5s;
+   
+  
+  }
+  
+  @keyframes hm2 {
+      0%{background-position: -100px 0;}
+      100%{background-position: -100px -1200px;}
+  }
+  #Hover-Motion3 {
+    display:block;
+    width: 100px;
+    height: 200px;
+    margin: 0 auto;
+    border: solid 2px #000;
+    background:transparent url(../images/SpriteMotion.svg) -200px 0;
+    background-size: 400%;
+  }
+  #Hover-Motion3:hover{
+    width: 100px;
+    height: 200px;
+      background:transparent url(../images/SpriteMotion.svg) -200px 0 no-repeat;
+      background-size: 400px 1200px;
+      
+    animation: hm3 .5s steps(6) ;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-delay: .5s;
+   
+  
+  }
+  
+  @keyframes hm3 {
+      0%{background-position: -200px 0;}
+      100%{background-position: -200px -1200px;}
+  }
+  #Hover-Motion4 {
+    display:block;
+    width: 100px;
+    height: 200px;
+    margin: 0 auto;
+    border: solid 2px #000;
+    background:transparent url(../images/SpriteMotion.svg) -300px 0;
+    background-size: 400%;
+  }
+  #Hover-Motion4:hover{
+    width: 100px;
+    height: 200px;
+      background:transparent url(../images/SpriteMotion.svg) -300px 0 no-repeat;
+      background-size: 400px 1200px;
+      
+    animation: hm4 .5s steps(6) ;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-delay: .5s;
+   
+  
+  }
+  
+  @keyframes hm4 {
+      0%{background-position: -300px 0;}
+      100%{background-position: -300px -1200px;}
+  }

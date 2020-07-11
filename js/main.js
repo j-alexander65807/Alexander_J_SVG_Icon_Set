@@ -1,11 +1,11 @@
 (() => {
-    const allSVGs = document.querySelectorAll('.svg-image');
+    const allIcons = document.querySelectorAll('.icon-select');
     
     function toggleSelection() {
     this.classList.toggle("selected");
     console.log(this.id);
     }
     
-    allSVGs.forEach(item => item.addEventListener('click', toggleSelection));
+    allIcons.forEach(item => item.addEventListener('click', toggleSelection));
     
 })();
