@@ -16,7 +16,6 @@ Clone this to location of your choice and start editing.
 "LastName\_FirstName\_1056\_SVG\_Icon\_Marketplace"  
 Submit the repo link via FOL dropbox - DO NOT submit AI ﬁles.   
 Github repo: readme.md file, master branch, design branch and development branch  
-Homework must be submitted by midnight on the **​Saturday of Week 3 (January 25)** 
 
 - - - -
 #### Authors
